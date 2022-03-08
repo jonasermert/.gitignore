@@ -1,0 +1,155 @@
+###########################
+# Project Specific
+###########################
+/build/www/**
+/src/test/javascript/coverage/
+/src/test/javascript/PhantomJS*/
+
+###############################
+# Node
+###############################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+
+###############################
+# SASS
+###############################
+.sass-cache/
+
+###############################
+# Eclipse
+###############################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+#PDT-specific
+.buildpath
+
+###############################
+# IntelliJ
+###############################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+###############################
+# Visual Studio Code
+###############################
+.vscode/
+
+###############################
+# Spring Tool Suite
+###############################
+.apt-generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+###############################
+# NetBeans
+###############################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+###############################
+# Maven
+###############################
+/log/
+*/target/**
+
+###############################
+# Gradle
+###############################
+.gradle/
+
+###############################
+# Package Files
+###############################
+*.jar
+*.war
+*.ear
+*.db
+
+###############################
+# Windows
+###############################
+# Windows Image File Caches
+Thumbs.db
+
+# Folder Config File
+Desktop.ini
+
+###############################
+# Mac OS
+###############################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+###############################
+# Directories
+###############################
+/bin/
+/deploy/
+
+###############################
+# Logs
+###############################
+*.log
+
+###############################
+# Others
+###############################
+*.class
+.merge_file*
+
+###############################
+# Gradle Wrapper
+###############################
+!gradle/wrapper/gradle-wrapper.jar
+
+###############################
+# Maven Wrapper
+###############################
+!.mvn/wrapper/maven-wrapper.jar
+
+###############################
+# ESLint
+###############################
+.eslintcache
+/.idea/
